@@ -18,8 +18,23 @@ configuration file (in case you change them).
 Build the collector:
 
 ```bash
-ocb --config=builder-config.yaml
+builder --config=builder-config.yaml
 ```
+
+## Usage
+
+Run the collector with the provided configuration:
+
+```bash
+./_build/otelcol-custom --config=otelcol-config.yaml
+```
+
+> [!NOTE]
+> You need to create a `file-exporter` directory when using the file exporter.
+
+Then just run any application instrumented with OpenTelemetry and point it to
+this collector.
+
 
 ## License 
 MIT
