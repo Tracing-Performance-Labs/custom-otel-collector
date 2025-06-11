@@ -12,6 +12,7 @@ receivers:
 
 processors:
   dedupeprocessor:
+    table_type: "redis"
 
 exporters:
   debug:
