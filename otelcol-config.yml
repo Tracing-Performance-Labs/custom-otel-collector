@@ -13,6 +13,7 @@ receivers:
 processors:
   dedupeprocessor:
     table_type: "redis"
+    repr_type: "murmur"
 
 exporters:
   debug:
