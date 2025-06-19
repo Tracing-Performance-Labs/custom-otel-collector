@@ -40,7 +40,7 @@ processors:
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/spanprocessor v0.128.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor v0.128.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor v0.128.0
-  - gomod: github.com/Tracing-Performance-Labs/dedupeprocessor v0.0.4
+  - gomod: github.com/Tracing-Performance-Labs/dedupeprocessor v0.0.5
 
 connectors:
   - gomod: go.opentelemetry.io/collector/connector/forwardconnector v0.128.0
